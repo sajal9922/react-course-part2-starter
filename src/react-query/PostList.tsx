@@ -17,6 +17,3 @@ const PostList = () => {
 };
 
 export default PostList;
-function usePost(): { data: any; error: any } {
-  throw new Error('Function not implemented.');
-}

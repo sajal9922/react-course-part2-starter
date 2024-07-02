@@ -4,8 +4,8 @@ import axios from "axios";
 interface Post {
   id: number;
   title: string;
-  body: string;
   userId: number;
+  completed: boolean;
 }
 
 const usePosts = () => {
