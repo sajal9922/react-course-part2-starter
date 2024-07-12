@@ -1,11 +1,16 @@
+import { Link, Navigate } from 'react-router-dom';
+import useAuth from './hooks/useAuth';
+
 const HomePage = () => {
+  //  throw new Error('An error occurred');
+
   return (
     <>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Incidunt, mollitia!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+        mollitia!
       </p>
-      <a href="/users">Users</a>
+      <Link to="/users">User</Link>
     </>
   );
 };
